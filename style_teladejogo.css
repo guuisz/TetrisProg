@@ -1,0 +1,83 @@
+body {
+    background-image: url("background.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    text-align: center;
+}
+.header {
+    top: 0;
+    width: 100%;
+    background-image: url("background_header.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 15px 0;
+}
+.header p {
+    font-family: "Architectural";
+    color: #fff;
+    font-size: 100px;
+}
+.header p:hover {
+    color: #000;
+}
+
+.header_menu {
+    text-align: center;
+}
+
+.header_menu ul li {
+    display: inline-table;
+    margin: 0 50px ;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.header_menu ul li a {
+    font-family: "Architectural";
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+    color: #AAA;
+}
+
+#container{
+    margin: 0 auto;
+    max-width: 900px;
+}
+table{
+    font-size: 30px;
+}
+#ranking{
+    height: 400px;
+}
+
+#table_ranking{
+    font-size: 11px;
+}
+
+table td{
+    vertical-align: top;
+    padding: 10px;
+}
+table th{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#informacoes{
+    color:white;
+}
+.info{
+    border-radius: 10px;
+    color: white;
+    background-color: #44448F;
+    height: 30px;
+    width: 100%;
+}
+#proxima{
+    height: 100px;
+}

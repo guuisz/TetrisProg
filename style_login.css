@@ -1,0 +1,84 @@
+body{
+    background-image: url("background.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: gray;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    margin: auto;
+}
+
+header{
+    margin: auto;
+    text-align: center;
+}
+
+#container{
+    color: white;
+    box-shadow: 0 0 5px black;
+    margin: auto;
+    max-width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 10px;
+    background-color: #44448F;
+    text-align: center;
+    
+}
+
+form{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+a:hover{
+    color: #0000FF;
+}
+
+.input{
+    width: 100%;
+    background-color: #EEE;
+    box-shadow: 0 0 2px black;
+    margin: 5px 0;
+    font-size: 20px;
+    border-radius: 4px;
+}
+#submit{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#LoginSubmit{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    padding: 16px;
+}
+
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

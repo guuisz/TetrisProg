@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>Tetris - Cadastrar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style_cadastro.css">
+    </head>
+    <body>
+        <div id="container">
+            <h2>Cadastre-se</h2>
+            <form action="teladejogo.html" method="POST">
+                <fieldset>
+                    <legend>Autenticação</legend>
+                    Usuário<br>
+                    <input type="text" class="input" name="usuario"><br>
+                    Senha<br>
+                    <input type="password" class="input" name="senha"><br>
+                    Confirmar Senha<br>
+                    <input type="password" class="input" name="confirmar">
+                </fieldset>
+                <fieldset>
+                    <legend>Informações pessoais</legend>
+                    Nome completo<br>
+                    <input type="text" class="input" name="nome"><br>
+                    Data de Nascimento<br>
+                    <input type="date" class="input" name="nascimento"><br>
+                    CPF<br>
+                    <input type="text" class="input" name="cpf"><br>
+                    Telefone<br>
+                    <input type="text" class="input" name="telefone"><br>
+                    E-mail<br>
+                    <input type="email" class="input" name="email">
+                </fieldset>
+                <div id="divSubmit">
+                    
+                    <input type="submit" id="submit" value="CADASTRAR">
+                </div>
+
+            </form>
+        </div>
+    </body>
+</html>

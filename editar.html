@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>Tetris - Editar cadastro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style_editar.css">
+    </head>
+    <body>
+        <div id="container">
+            <h2>Editar cadastro</h2>
+            <form action="teladejogo.html" method="POST">
+                <fieldset>
+                    <legend>Editar Informações</legend>
+                    Usuário<br>
+                    <input type="text" class="input" name="usuario" readonly><br>
+                    <fieldset>  
+                        Alterar senha<br>
+                        <input type="password" class="input" name="senha"><br>
+                        Confirmar senha<br>
+                        <input type="password" class="input" name="confirmar">
+                    </fieldset>
+                </fieldset>
+                <fieldset>
+                    <legend>Informações pessoais</legend>
+                    Nome completo<br>
+                    <input type="text" class="input" name="nome"><br>
+                    Data de Nascimento<br>
+                    <input type="date" class="input" name="nascimento" readonly><br>
+                    CPF<br>
+                    <input type="text" class="input" name="cpf" readonly><br>
+                    Telefone<br>
+                    <input type="text" class="input" name="telefone"><br>
+                    <fieldset>
+                        Alterar e-mail<br>
+                        <input type="email" class="input" name="email">
+                        Confirmar e-mail<br>
+                        <input type="email" class="input" name="email">
+                    </fieldset>
+                </fieldset>
+                <div id="divSubmit">
+                    
+                    <input type="submit" id="submit" value="EDITAR">
+                </div>
+
+            </form>
+        </div>
+    </body>
+</html>
